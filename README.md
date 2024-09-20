@@ -40,13 +40,17 @@ go build main.go
 
 你可以自行添加参数，如Windows上可添加 `-ldflags="-H windowsgui"` 以关闭控制台窗口。
 
-## Download from Release
+<!-- ## Download from Release
 
 Or, you can directly download from release page which is much easier and more convenient.
 
 ## 直接下载
 
-或者，你可以直接在Release页下载，更方便、更简单。
+或者，你可以直接在Release页下载，更方便、更简单。 -->
+
+**Actually, because of you need to change wss.go, so any releases are not functional. You need to compile by yourself. Updates in the future may solve this problem.**
+
+**实际上，因为需要更改wss.go，所以一切的提前编译好的版本都是无效的，你需要自己编译。后期可能会更新以解决这个问题。**
 
 ## How to use
 
